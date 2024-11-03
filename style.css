@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scrollbar-width:none ; 
+}
+
+header, footer{
+
+    background-color: #f1f0f0ec;
+    border-radius: 10px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: rgb(158, 100, 0);
+    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.header_list_1 summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+.header_list_1 .list{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100px;
+    height: 230px;
+    background-color: #f1f0f0ec;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.header_list_2{
+    display: none;
+}
+
+.header_list_2 ul{
+    display: flex;
+    list-style: none;
+}
+
+.header_list_2 li{
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list h2, .header_list_2 h4{
+    margin: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.list h2:hover, .header_list_2 h4:hover, .other_pages h1:hover{
+    border-bottom: 2px solid #3d3d3dbe;
+}
+
+.other_pages h1{
+    display: inline;
+}
+
+.other_pages mark{
+    background-color: #f1f0f098;
+    color: rgb(158, 100, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main_icon, .other_pages{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+a{
+    color: #f1f0f0ec;
+}
+
+.home{
+    background-image: url("img/home_img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile h1{
+    padding: 30px 0;
+    color: #f1f0f0ec;
+}
+
+.profile mark{
+    background-color: #f1f0f098;
+    color: rgb(158, 100, 0);
+    font-size: 35px;
+}
+
+
+section{
+    background-color: #f9f9f9;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+section h3{
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(158, 100, 0);
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+}
+
+.card{
+    color: rgb(158, 100, 0);
+    background-color: #f1f0f09d;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(32, 32, 32);
+    margin: 20px;
+    padding: 20px;
+    transition: 0.5s ease;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+@media (min-width:600px) and (max-width:1440px) {
+
+    .header_list_1{
+            display: none;
+    }
+
+    .header_list_2{
+            display: flex;
+    }
+
+    .main_icon a{
+        font-size: 25px;
+    }
+
+    .home{
+        padding-top: 5%;
+    }
+
+}
