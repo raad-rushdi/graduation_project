@@ -13,7 +13,7 @@ let users;
 if(localStorage.data !=null){
     users = JSON.parse(localStorage.data)
 }else{
-    let users = [];
+     users = [];
 }
 
 login_btn.onclick = function(){
