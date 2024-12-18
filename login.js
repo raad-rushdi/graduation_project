@@ -35,7 +35,7 @@ document.getElementById('loginForm').addEventListener("submit",function(event){
                         break;
                         case "usr" : redirectPage = "volunteer.html";
                         break;
-                        case "adm1" : redirectPage = "manger.html";
+                        case "adm1" : redirectPage = "manger_a.html";
                         break;
                     }
 
