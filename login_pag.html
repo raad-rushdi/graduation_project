@@ -10,23 +10,27 @@
 
     <div class="login_content">
 
-        <form action="">
+        <form id="loginForm">
 
             <h1>login</h1>
 
             <div class="input_box">
-                <input type="text" placeholder="User Name" required>
+                <input type="text" id="eml" placeholder="User Name" required>
             </div>
 
             <div class="input_box">
-                <input type="password" placeholder="Password" required>
+                <input type="password" id="pass" placeholder="Password" required>
             </div>
 
             <button type="submit" class="login_btn">Login</button>
 
         </form>
 
+        <p id="message"></p>
+        
     </div>
+
+    <script src="login.js"></script>
     
 </body>
 </html>
