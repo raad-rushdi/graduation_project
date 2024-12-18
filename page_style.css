@@ -16,8 +16,19 @@
     width: 450px;
     height: 300px;
     padding: 5px;
-    background: url(img/home_img.jpg) no-repeat;
     background-size: cover;
+}
+
+#ads{
+    background-image: url("img/99.jpg");
+}
+
+#healthy{
+    background-image: url("img/88.jpg");
+}
+
+#education{
+    background-image: url("img/77.jpg");
 }
 
 iframe{
